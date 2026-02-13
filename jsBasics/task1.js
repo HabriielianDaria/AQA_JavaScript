@@ -4,6 +4,4 @@ function showTextAfterDelay(text, delay) {
   }, delay);
 }
 
-showTextAfterDelay("It will be 3 seconds delay", 3000);
-
-
+showTextAfterDelay('It will be 3 seconds delay', 3000);

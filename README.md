@@ -1,2 +1,3 @@
 # AQA_JavaScript
-New course 
+
+New course
