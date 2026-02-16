@@ -4,6 +4,7 @@
   "description": "New course",
   "main": "index.js",
   "dependencies": {
+    "axios": "^1.13.5",
     "chalk": "^5.6.2"
   },
   "devDependencies": {
@@ -12,13 +13,14 @@
     "eslint-plugin-react": "^7.37.5",
     "globals": "^17.3.0",
     "husky": "^9.1.7",
+    "jest": "^29.7.0",
     "prettier": "^3.8.1"
   },
-  "scripts": {
-    "lint": "eslint .",
-    "format": "prettier --write .",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "lint": "eslint .",
+  "format": "prettier --write .",
+  "test": "jest"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HabriielianDaria/AQA_JavaScript.git"
